@@ -2,6 +2,27 @@ body {
   background-color: #CDFFEF;
 }
 
+#wrapper {
+  width:800px;
+  background-color:#f2f2e8;
+  position:relative;
+  left:50%;
+  margin-left:-400px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  padding:5px;
+}
+
+#gallery-wrapper {
+  width:780px;
+  border: 1px solid;
+  border-color: #dbd9ca;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  margin:5px;
+  padding:5px;
+}
+
 h1 {
   font-family: "Arial", "Verdana", Sans-serif;
 }
@@ -11,36 +32,11 @@ h1 {
 }
 
 img {
-  display: inline;
-  width: auto;
-  max-width: 200px;
-  padding-right: 12px;
-  padding-bottom: 12px;
-
-}
-
-
-
-/*img {
   display: inline-block;
-  height: auto;
-  width: auto;
-  max-width: 300px;
-  max-height: 300px;
-  border-radius: 10%;
-*/
-
-
-/* doesn't work need fix
-.thumb {
-  display: inline-block;
-  /*padding: 0 6px;
-
   width: auto;
   height: auto;
-  max-height: 304px;
-  max-width: 300px;
+  max-width: 100px;
+  max-height: 200px;
 }
 
-*/
 
