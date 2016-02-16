@@ -1,10 +1,10 @@
 body {
-  background-color: white;
+  background-color: #def;;
 }
 
 #wrapper {
   width:800px;
-  background-color:white;
+  background-color: #def;;
   position:relative;
   left:50%;
   margin-left:-400px;
@@ -27,10 +27,26 @@ body {
   margin-right: auto;
 }
 
+/*
 h1 {
   font-family: "Arial", "Verdana", Sans-serif;
   text-align: center;
   font-size: 6em;
+}
+*/
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  line-height: 1em;
+  text-align: center;
+}
+
+.inset-text {
+  /* Shadows are visible under slightly transparent text color */
+  color: rgba(10,60,150, 0.8);
+  text-shadow: 1px 4px 6px #def, 0 0 0 #000, 1px 4px 6px #def;
 }
 
 .pgraph {
@@ -47,6 +63,15 @@ img {
 
 .circular {
   border-radius: 50%;
+  transition: opacity 1s linear;
 }
+
+.circular:hover {
+  opacity: 0;
+}
+
+/* Don't show shadows when selecting text */
+::-moz-selection { background: #5af; color: #fff; text-shadow: none; }
+::selection { background: #5af; color: #fff; text-shadow: none; }
 
 
