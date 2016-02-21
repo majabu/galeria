@@ -4,7 +4,7 @@ body {
 
 #wrapper {
   width:800px;
-  background-color: #def;;
+  background-color: #def;
   position:relative;
   left:50%;
   margin-left:-400px;
@@ -15,7 +15,7 @@ body {
 #gallery-wrapper {
   position: relative;
   width:780px;
-  -moz-border-radius: 10px;
+  moz-border-radius: 10px;
   margin:5px;
   padding:5px;
 }
@@ -25,6 +25,16 @@ body {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+.overflow-wrapper {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+}
+
+.position img {
+  position: relative;
 }
 
 /*
@@ -54,21 +64,53 @@ h1 {
   text-align: center;
 }
 
-
 img {
   width: auto;
   height: auto;
   padding: 10px;
+
 }
 
 .circular {
   border-radius: 50%;
-  transition: opacity 1s linear;
+  transition: opacity 2s ease;
 }
 
 .circular:hover {
-  opacity: 0;
+  opacity: 0.2;
 }
+
+
+
+img.blur{
+  -webkit-transition: all 3s ease;
+  -moz-transition: all 3s ease;
+  -o-transition: all 3s ease;
+  -ms-transition: all 3s ease;
+  transition: all 3s ease;
+}
+
+img.blur:hover {
+  -webkit-filter: blur(15px);
+}
+
+.bw {
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -o-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+.bw:hover {
+  -webkit-filter: greyscale(100%);
+}
+
+/* //////////////////////////////////////////////////////////////// */
+
+
+
+
 
 /* Don't show shadows when selecting text */
 ::-moz-selection { background: #5af; color: #fff; text-shadow: none; }
