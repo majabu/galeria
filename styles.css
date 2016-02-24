@@ -36,7 +36,6 @@ body {
 .position img {
   position: relative;
 }
-
 /*
 h1 {
   font-family: "Arial", "Verdana", Sans-serif;
@@ -51,6 +50,15 @@ h1 {
   font-size: 6em;
   line-height: 1em;
   text-align: center;
+}
+
+h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 1em;
+  text-align: center;
+  color:black ;
 }
 
 .inset-text {
