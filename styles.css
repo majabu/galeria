@@ -20,7 +20,6 @@ body {
   padding:5px;
 }
 
-/* need to fix text-align center for a better method! */
 #thumb-wrapper {
   text-align: center;
   margin-left: auto;
@@ -54,7 +53,6 @@ h1 {
 }
 
 .inset-text {
-  /* Shadows are visible under slightly transparent text color */
   color: rgba(10,60,150, 0.8);
   text-shadow: 1px 4px 6px #def, 0 0 0 #000, 1px 4px 6px #def;
 }
@@ -106,13 +104,13 @@ img.blur:hover {
   -webkit-filter: greyscale(100%);
 }
 
-/* //////////////////////////////////////////////////////////////// */
 
 
 
 
 
-/* Don't show shadows when selecting text */
+
+
 ::-moz-selection { background: #5af; color: #fff; text-shadow: none; }
 ::selection { background: #5af; color: #fff; text-shadow: none; }
 
