@@ -104,13 +104,6 @@ img.blur:hover {
   -webkit-filter: greyscale(100%);
 }
 
-
-
-
-
-
-
-
 ::-moz-selection { background: #5af; color: #fff; text-shadow: none; }
 ::selection { background: #5af; color: #fff; text-shadow: none; }
 
